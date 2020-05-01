@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobacco | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ac1b993a02.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- NAVIGATION BAR -->
+    <div class="nav_bar" id="nav_bar">
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div><br>
+
+    <!-- SHOWCASE PICTURE -->
+    <div class="show_case">
+        <img src="images/tobacco4.jpg" alt="">
+        <p>
+            <span><span>Abcorn</span> Tobacco</span><br>
+            We specialise in buying tobacco from small scale to commercial farmers and export high quality tobacco.
+        </p>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div class="contact">
+        <h3>Contact</h3>
+        <div>
+            <i class="fa fa-phone-alt"></i> 0111111
+            <i class="fa fa-whatsapp"></i> 1111222
+            <i class="fa fa-envelope"></i> tocacco@abcorn.com
+            <i class="fa fa-facebook"></i> abcorn tobacco
+            <i class="fa fa-twitter"></i> @abcorn
+            <i class="fa fa-instagram"></i> abcornonline
+        </div>
+
+        <h3>Location:</h3>
+        <div id="google_map" style="width:100%; height: 400px;"></div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <div class="services">
+        <h3>Services</h3>
+        <div class="services_offered">
+            <div class="buying" id="service">
+                <p>
+                    <img src="images/tobacco8.jpg" alt="">
+                    We <span>buy</span> tobacco from contracted and non-contracted farmers...
+                    <a href="services.html">Read more</a>
+                    
+                    <!-- <button id="my_btn1" onclick="readMore()">Read more</button> -->
+                </p>
+            </div>
+    
+            <div class="selling" id="service">
+                <p>
+                    <img src="images/tobacco1.jpeg" alt="">
+                    We <span>sell</span> tobacco worldwide...
+                    <a href="services.html">Read more</a>
+                </p>
+            </div>
+    
+            <div class="contracting" id="service">
+                <p>
+                    <img src="images/tobacco7.jpg" alt="">
+                    We offer <span>contracts</span> to willing farmers...
+                    <a href="services.html">Read more</a>
+                </p>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer>&copyAbcorn Tobacco 2020</footer>
+
+    <script src="js/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</body>
+</html>

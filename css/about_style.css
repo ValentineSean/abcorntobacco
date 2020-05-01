@@ -1,0 +1,48 @@
+.about{
+    text-align: center;
+}
+
+.about h2{
+    color: #2bab0d;
+}
+
+.about h2 span{
+    color: rgb(240, 170, 7);
+}
+
+.about h2 span span{
+    font-family: tahoma;
+}
+
+#about{
+    box-shadow: green 1px 1px 1px 1px;
+    margin: 10px auto;
+    width: 90%;
+}
+
+#about button{
+    background: unset;
+    border: none;
+    outline: none;
+    color: orangered;
+    font-weight: bold;
+}
+
+#dots1,
+#dots2,
+#dots3
+{
+    color: rgb(0, 100, 0);
+    font-weight: bold;
+}
+
+#more1,
+#more2,
+#more3
+{
+    display: none;
+}
+
+#about{
+    color: rgb(0, 100, 0);
+}
