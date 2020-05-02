@@ -1,10 +1,11 @@
 body{
     font-family: arial;
-    background-image: radial-gradient(rgb(137, 214, 137), rgb(240, 235, 162));
+    background-image: radial-gradient(silver, whitesmoke);
 }
 
 .nav_bar{
-    background-color: rgb(6, 175, 6);
+    /* background-color: rgb(6, 175, 6); */
+    background-color: rgb(244, 175, 59);
     overflow: hidden;
     text-align: center;
 }
@@ -12,7 +13,8 @@ body{
 .nav_bar a{
     /* float: left; */
     display: inline-block;
-    color: rgb(240, 170, 7);
+    /* color: rgb(240, 170, 7); */
+    color: rgb(2, 2, 61);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -20,17 +22,17 @@ body{
 }
 
 .nav_bar a:hover{
-    color: #b2ff00;
+    color: rgb(129, 70, 2);
 }
 
 .nav_bar a.active{
-    background-color: greenyellow;
-    color: #2bab0d;
+    background-color: rgb(2, 2, 61);
+    color: rgb(240, 170, 7);
     font-weight: bold;
 }
 
 .nav_bar .icon{
-    color: rgb(246, 204, 65);
+    color: rgb(2, 2, 61);
     display: none;
 }
 
@@ -44,7 +46,6 @@ body{
 }
 
 .show_case span span{
-    color: greenyellow;
     font-family: tahoma;
 }
 
@@ -58,20 +59,19 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background-color: gray; */
-    /* color: rgb(246, 204, 65); */
-    color: #b2ff00;
+    color: rgb(240, 170, 7);
+    font-weight: bold;
 }
 
 .show_case img{
     width: 100%;
-    box-shadow: green 1px 1px 1px 1px;
+    box-shadow: gray 1px 1px 1px 1px;
 }
 
 /* CONTACT SECTION*/
 .contact{
-    box-shadow: green 1px 1px 1px 1px;
-    color: rgb(0, 100, 0);
+    box-shadow: gray 1px 1px 1px 1px;
+    color: rgb(2, 2, 61);
     text-align: center;
 }
 
@@ -80,7 +80,7 @@ body{
 }
 
 .contact i{
-    color: orange;
+    color: orangered;
     font-size: 20px;
     margin: 10px;
 }
@@ -89,7 +89,7 @@ body{
 .services{
     margin: 10px;
     text-align: center;
-    color: #2bab0d;
+    color: rgb(2, 2, 61);
 }
 
 .services_offered{
@@ -100,14 +100,14 @@ body{
 
 #service{
     margin: 10px;
-    box-shadow: green 1px 1px 1px 1px;
-    color: rgb(0, 100, 0);
+    box-shadow: gray 1px 1px 1px 1px;
+    color: rgb(2, 2, 61);
     border-radius: 6px;
 }
 
 #service a{
     text-decoration: none;
-    color: lime;
+    color: rgb(129, 70, 2);
     font-weight: bold;
 }
 
@@ -118,7 +118,7 @@ body{
 }
 
 #service span{
-    color: green;
+    color: rgb(129, 70, 2);
     font-weight: bold;
 }
 
@@ -127,7 +127,7 @@ footer{
     text-align: center;
     /* background-color: rgb(240, 170, 8); */
     background-color: rgb(244, 175, 59);
-    color: rgb(0, 100, 0);
+    color: rgb(2, 2, 61);
     font-weight: bold;
     margin-top: 10px;
     padding: 10px;

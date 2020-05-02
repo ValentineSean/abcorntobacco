@@ -3,28 +3,35 @@
 }
 
 .about h2{
-    color: #2bab0d;
+    color: rgb(2, 2, 61);
 }
 
 .about h2 span{
-    color: rgb(240, 170, 7);
+    color: rgb(129, 70, 2);
 }
 
 .about h2 span span{
+    color: rgb(129, 70, 2);
     font-family: tahoma;
 }
 
 #about{
-    box-shadow: green 1px 1px 1px 1px;
+    box-shadow: gray 1px 1px 1px 1px;
     margin: 10px auto;
     width: 90%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#about p{
+    color: rgb(2, 2, 61);
 }
 
 #about button{
     background: unset;
     border: none;
     outline: none;
-    color: orangered;
+    color: rgb(129, 70, 2);
     font-weight: bold;
 }
 
@@ -32,7 +39,6 @@
 #dots2,
 #dots3
 {
-    color: rgb(0, 100, 0);
     font-weight: bold;
 }
 
@@ -44,5 +50,40 @@
 }
 
 #about{
-    color: rgb(0, 100, 0);
+    color: rgb(129, 70, 2);
+}
+
+/* TEAM MEMBERS SECTION */
+
+.team_members{
+    box-shadow: gray 1px 1px 1px 1px;
+    color: rgb(2, 2, 61);
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.team{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+
+#team{
+    width: 90%;
+    margin: auto;
+    box-shadow: rgb(2, 2, 61) 1px 1px 1px 1px;
+}
+
+#team img{
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 550px){
+    .team{
+        display: block;
+    }
 }

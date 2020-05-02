@@ -1,13 +1,14 @@
 .products{
     text-align: center;
+    color: rgb(2, 2, 61);
 }
 
 .products h2{
-    color:#2bab0d;
+    color: rgb(2, 2, 61);
 }
 
 .products h2 span{
-    color: rgb(240, 170, 7);
+    color: rgb(129, 70, 2);
 }
 
 .products h2 span span{
@@ -21,7 +22,7 @@
 
 #product{
     margin: 10px;
-    box-shadow: green 1px 1px 1px 1px;
+    box-shadow: gray 1px 1px 1px 1px;
     border-radius: 6px;
 }
 
