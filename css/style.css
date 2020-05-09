@@ -73,6 +73,7 @@ body{
     box-shadow: gray 1px 1px 1px 1px;
     color: rgb(2, 2, 61);
     text-align: center;
+    margin: 10px;
 }
 
 .contact h3{
@@ -83,6 +84,15 @@ body{
     color: orangered;
     font-size: 20px;
     margin: 10px;
+}
+
+/* LOCATION MAP */
+.location_map{
+    width: 100%;
+}
+
+.location_map iframe{
+    width: 100%;
 }
 
 /* SERVICES SECTION IN HOME */

@@ -23,8 +23,14 @@
     border-radius: 6px;
 }
 
-#about p{
+#about h2{
+    color: rgb(129, 70, 2);
+}
+
+#about li{
     color: rgb(2, 2, 61);
+    text-align: justify;
+    margin: 10px;
 }
 
 #about button{
@@ -70,8 +76,9 @@
 }
 
 #team{
+    border-radius: 6px;
     width: 90%;
-    margin: auto;
+    margin: 10px auto;
     box-shadow: rgb(2, 2, 61) 1px 1px 1px 1px;
 }
 
@@ -85,5 +92,11 @@
 @media screen and (max-width: 550px){
     .team{
         display: block;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .about{
+        font-size: 10px;
     }
 }
