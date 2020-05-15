@@ -15,29 +15,31 @@
     font-family: tahoma;
 }
 
-#about{
+.mission, .vision{
     box-shadow: gray 1px 1px 1px 1px;
     margin: 10px auto;
     width: 90%;
     padding: 10px;
     border-radius: 6px;
+    color: rgb(240, 170, 7);
+    background-color: rgb(2, 2, 61);
 }
 
-#about h2{
-    color: rgb(129, 70, 2);
+.mission h2, .vision h2{
+    color: rgb(240, 170, 7);
 }
 
-#about li{
-    color: rgb(2, 2, 61);
+.mission li, .vision li{
+    color: white;
     text-align: justify;
     margin: 10px;
 }
 
-#about button{
+.mission button, .vision button{
     background: unset;
     border: none;
     outline: none;
-    color: rgb(129, 70, 2);
+    color: greenyellow;
     font-weight: bold;
 }
 
@@ -55,15 +57,11 @@
     display: none;
 }
 
-#about{
-    color: rgb(129, 70, 2);
-}
-
 /* TEAM MEMBERS SECTION */
 
 .team_members{
     box-shadow: gray 1px 1px 1px 1px;
-    color: rgb(2, 2, 61);
+    color: rgb(240, 170, 7);
     width: 90%;
     margin: auto;
     padding: 10px;
@@ -76,10 +74,15 @@
 }
 
 #team{
+    background-color: rgb(2, 2, 61);
     border-radius: 6px;
     width: 90%;
     margin: 10px auto;
     box-shadow: rgb(2, 2, 61) 1px 1px 1px 1px;
+}
+
+#team span{
+    color: greenyellow;
 }
 
 #team img{

@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tobacco | Home</title>
+    <title>Abcorn Tobacco | Home</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about_style.css">
     <script src="https://kit.fontawesome.com/ac1b993a02.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
     <!-- NAVIGATION BAR -->
-    <div class="nav_bar" id="nav_bar">
+    <div class="navbar" id="navbar">        
         <a href="index.html" class="active">Home</a>
         <a href="services.html">Services</a>
         <a href="about.html">About</a>
@@ -19,67 +20,106 @@
         </a>
     </div><br>
 
-    <!-- SHOWCASE PICTURE -->
-    <div class="show_case">
-        <img src="images/tobacco4.jpg" alt="">
-        <p>
-            <span><span>Abcorn</span> Tobacco</span><br>
-            We deliver quality tobacco to our clients around the world. 
-        </p>
-    </div>
-
-    <!-- CONTACT SECTION -->
-    <div class="contact">
-        <h3>Contact</h3>
-        <div>
-            <i class="fa fa-phone-alt"></i> 0111111
-            <i class="fa fa-whatsapp"></i> 1111222
-            <i class="fa fa-envelope"></i> tocacco@abcorn.com
-            <i class="fa fa-facebook"></i> abcorn tobacco
-            <i class="fa fa-twitter"></i> @abcorn
-            <i class="fa fa-linkedin"></i> abcorn tobacco <br>
-            <i class="fa fa-industry"></i> Number 22 Natal Road, Avondale, Harare
+    <div class="content">
+        <!-- SHOWCASE PICTURE -->
+        <div class="show_case">
+            <img src="images/tobacco4.jpg" alt="">
+            <p>
+                <span><span>Abcorn</span> Tobacco</span><br>
+                We are a tobacco brokerage firm that delivers quality Zimbabwean Virginia Tobacco to our clients around the world. 
+            </p>
         </div>
 
-        <h3>Location:</h3>
+        <!-- CONTACT SECTION -->
+        <h3 class="contact_heading">Contact Us:</h3>
+        <div class="contact">
+            <div class="contact_details">
+                <i class="fa fa-phone"></i> +263 772 506 606 <br>
+                <!-- <img src="images/communications (1).png" alt=""> +263 772 506 606 <br> -->
+                <i class="fa fa-whatsapp"></i> +263 772 506 606 <br>
+                 <!-- <img src="images/gmail.png" alt=""> tocacco@abcorn.com <br> -->
+                <i class="fa fa-envelope"></i> tocacco@abcorn.com <br>
+                <i class="fab fa-facebook"></i> abcorn tobacco <br>
+                <!-- <img src="images/twitter.png" alt="">  @abcorn <br> -->
+                <i class="fa fa-twitter"></i> @abcorn <br>
+                <i class="fab fa-linkedin"></i> abcorn tobacco <br>
+            </div>
+
+            <div class="email_us">
+                <form action="">
+                    <h4>tobacco@abcorn.com</h4>
+                    <input type="text" placeholder="Name"><br>
+                    <input type="email" placeholder="Email" required="1"><br>
+                    <input type="text" placeholder="Subject"><br>
+                    <textarea name="" placeholder="Message"></textarea><br>
+                    <button>Send</button>
+                </form>
+            </div>
+
+        </div>
 
         <div class="location_map">
+            <h3><i class="fa fa-industry"></i> Location: Number 22 Natal Road, Avondale, Harare</h3>
             <iframe height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=22%20Natal%20Road%2C%20Avondale%2C%20Harare&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
-
-    </div>
-
-    <!-- SERVICES SECTION -->
-    <div class="services">
-        <h3>Services</h3>
-        <div class="services_offered">
-            <div class="buying" id="service">
-                <p>
-                    <img src="images/tobacco8.jpg" alt="">
-                    We <span>buy</span> tobacco from contracted and non-contracted farmers...
-                    <a href="services.html">Read more</a>
-                    
-                    <!-- <button id="my_btn1" onclick="readMore()">Read more</button> -->
-                </p>
-            </div>
-    
-            <div class="selling" id="service">
-                <p>
-                    <img src="images/tobacco1.jpeg" alt="">
-                    We <span>sell</span> tobacco worldwide...
-                    <a href="services.html">Read more</a>
-                </p>
-            </div>
-    
-            <div class="contracting" id="service">
-                <p>
-                    <img src="images/tobacco7.jpg" alt="">
-                    We offer <span>contracts</span> to willing farmers...
-                    <a href="services.html">Read more</a>
-                </p>
-            </div>
-        </div>
         
+    <!-- ABOUT SECTION -->
+    <div class="about">
+        <h2>About <span><span>Abcorn</span> Tobacco</span></h2>
+
+        <!-- VISION -->
+        <div class="vision" id="about">
+            <h2>Who are we?</h2>
+            <ul>
+                <li>Abcorn Tobacco is Class ' A ' certified merchants licensed with the regulator for tobacco in Zimbabwe ( Tobacco Industry & Marketing Board - TIMB) to purchase raw virginia tobacco from the auction floors for International exports<span id="dots2">...</span></li>
+            </ul>
+            <a href="about.html#vision">Read more</a>
+        </div>
+
+        <!-- MISSION -->
+        <div class="mission" id="about">
+            <h2>What we do</h2>
+            <ul>
+                <li>We enter into arrangements with our clients around the world to buy tobacco from the Auction Floors on their behalf<span id="dots1">...</span></li>
+                <span id="more1">
+                    <li>We also source tobacco for our our clients by way of engaging into contract farming to deliver quality grade tobacco at a nominal cost</li>
+                    <li>We stock tobacco for resell</li>
+                    <li>We process tobacco & manufacturers of Cut rag tobacco for export</li>
+                    <li>Do you want to purchase tobacco? As an international client there are three ways we can assist you for the purchase of tobacco cost effectively:</li>
+                    <ol>
+                        <li><i>Short term</i></li>
+                        <ul>
+                            <li>You can purchase directly from a range of what we have in stock. This model is not as cost effective as the other two models the medium and long term but is very fast</li>
+                        </ul>
+
+                        <li><i>Medium term</i></li>
+                        <ul>
+                            <li>We can enter into arrangements for you to purchase from the best auction floors in the world using our licenses and influence.</li>
+                            <li>This model is cost effective and gives you the pleasure of choosing your exact grades from various farmers selling their crop.</li>
+                        </ul>
+
+                        <li><i>Long term - Contract Farming</i></li>
+                        <ul>
+                            <li>This is the most cost effective model.</li>
+                            <li>As an international client we can enter into contract farming arrangements with various farmers to farm on our behalf where we provide them with the funding and inputs, in which they will be bound to sell only to you at an agreed price.</li>
+                            <li>We have our team that will be monitoring progress and provide further technical assistance to the farmers in all regions</li>
+                        </ul>
+                    </ol>
+                </span>
+            </ul>
+            <a href="about.html#mission">Read more</a>
+        </div>
+
+
+    <!-- SPONSORS SECTION -->
+    <div class="sponsors">
+        <fieldset>
+            <legend>Sponsored By:</legend>
+            <img src="images/TIMBLOGO.png" alt="">
+            <img src="images/BokaLOGO.jpg" alt="">
+            <img src="images/TSFLOGO.jpg" alt="">
+            <img src="images/PremierLOGO.jpg" alt="">
+        </fieldset>
     </div>
 
     <footer>&copyAbcorn Tobacco 2020</footer>

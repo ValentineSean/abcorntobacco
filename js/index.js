@@ -1,13 +1,27 @@
+// STICKY NAV BAR
+window.onscroll = function() {theFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function theFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
 // myFunction to manipulate nav bar
 function myFunction() {
-    var x = document.getElementById("nav_bar");
+    var x = document.getElementById("navbar");
 
-    if(x.className === "nav_bar") {
+    if(x.className === "navbar") {
         x.className += " responsive"
     }
 
     else{
-        x.className = "nav_bar"
+        x.className = "navbar"
     }
 }
 

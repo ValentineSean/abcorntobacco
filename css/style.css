@@ -1,19 +1,24 @@
-body{
-    font-family: arial;
-    background-image: radial-gradient(silver, whitesmoke);
+
+html{
+    scroll-behavior: smooth;
 }
 
-.nav_bar{
-    /* background-color: rgb(6, 175, 6); */
+body{
+    font-family: arial;
+    background-color: rgb(207, 232, 241);
+}
+
+/* NAVIGATION BAR SECTION */
+#navbar{
     background-color: rgb(244, 175, 59);
     overflow: hidden;
     text-align: center;
+    border-radius: 6px;
+    padding: 10px;
 }
 
-.nav_bar a{
-    /* float: left; */
+#navbar a{
     display: inline-block;
-    /* color: rgb(240, 170, 7); */
     color: rgb(2, 2, 61);
     text-align: center;
     padding: 14px 16px;
@@ -21,20 +26,22 @@ body{
     font-size: 17px;
 }
 
-.nav_bar a:hover{
+#navbar a:hover{
     color: rgb(129, 70, 2);
 }
 
-.nav_bar a.active{
+#navbar a.active{
     background-color: rgb(2, 2, 61);
     color: rgb(240, 170, 7);
     font-weight: bold;
+    border-radius: 6px;
 }
 
-.nav_bar .icon{
+#navbar .icon{
     color: rgb(2, 2, 61);
     display: none;
 }
+  
 
 /* SHOWCASE PICTURE SECTION */
 .show_case{
@@ -64,31 +71,154 @@ body{
 }
 
 .show_case img{
-    width: 100%;
+    width: 97%;
     box-shadow: gray 1px 1px 1px 1px;
 }
 
 /* CONTACT SECTION*/
-.contact{
-    box-shadow: gray 1px 1px 1px 1px;
-    color: rgb(2, 2, 61);
+.contact_heading{
     text-align: center;
+    color: rgb(2, 2, 61);
+}
+.contact{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    box-shadow: gray 1px 1px 1px 1px;
+    border-radius: 6px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.contact_details{
+    background-color: rgb(2, 2, 61);
+    color: yellowgreen;
+    box-shadow: gray 1px 1px 1px 1px;
+    border-radius: 6px;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.email_us{
+    margin: 10px;
+    text-align: center;
+}
+
+.email_us form{
+    border-radius: 6px;
+    border: solid 1px rgb(2, 2, 61);
+    /* background-color: rgb(66, 185, 233); */
+    background-image: linear-gradient(rgb(244, 175, 59), rgb(66, 185, 233));
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.email_us form h4{
+    color: rgb(2, 2, 61);
+}
+
+.email_us input{
+    background-color: rgb(2, 2, 61);
+    color: yellowgreen;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+
+.email_us textarea{
+    background-color: rgb(2, 2, 61);
+    color: yellowgreen;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+
+.email_us button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    outline: none;
+    background-color: rgb(244, 175, 59);
+    border: solid 1px rgb(2, 2, 61);
+    color: rgb(2, 2, 61);
+}
+
+.email_us button:hover{
+    background-color: rgb(2, 2, 61);
+    color: yellowgreen;
+    transition: 2s;
+}
+
+.email_us input::placeholder, .email_us textarea::placeholder{
+    text-align: center;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.location_map h3{
+    text-align: center;
+}
+
+#about a{
+    text-decoration: none;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.fa-phone{
+    color: khaki;
+    font-size: 20px;
     margin: 10px;
 }
 
-.contact h3{
-    text-align: center;
+.fa-whatsapp{
+    color: green;
+    font-size: 20px;
+    margin: 10px;
 }
 
-.contact i{
-    color: orangered;
+.fa-envelope{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.fa-facebook{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.fa-twitter{
+    color: rgb(66, 185, 233);
+    font-size: 20px;
+    margin: 10px;
+}
+
+.fa-linkedin{
+    color: white;
     font-size: 20px;
     margin: 10px;
 }
 
 /* LOCATION MAP */
 .location_map{
+    margin: 50px auto;
     width: 100%;
+    border-radius: 6px;
+}
+
+.location_map h3{
+    color: rgb(2, 2, 61);
 }
 
 .location_map iframe{
@@ -132,10 +262,29 @@ body{
     font-weight: bold;
 }
 
+/* SPONSORS SECTION */
+.sponsors fieldset{
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.sponsors legend{
+    color: rgb(2, 2, 61);
+    font-weight: bold;
+}
+
+.sponsors fieldset img{
+    border-radius: 6px;
+    margin: 10px;
+    width: 250px;
+    height: 150px;
+}
+
 /* FOOTER */
 footer{
     text-align: center;
-    /* background-color: rgb(240, 170, 8); */
+    border-radius: 6px;
     background-color: rgb(244, 175, 59);
     color: rgb(2, 2, 61);
     font-weight: bold;
@@ -146,16 +295,16 @@ footer{
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 600px) {
-    .nav_bar a:not(.active) {
+    #navbar a:not(.active) {
         display: none;
         float: left;
     }
 
-    .nav_bar{
+    #navbar{
         text-align: justify;
     }
 
-    .nav_bar a.icon {
+    #navbar a.icon {
         float: right;
         display: block;
     }
@@ -174,25 +323,64 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
-    .nav_bar.responsive {
+    #navbar.responsive {
         position: relative;
     }
 
-    .nav_bar.responsive .icon{
+    #navbar.responsive .icon{
         position: absolute;
         right: 0;
         top: 0;
     }
 
-    .nav_bar.responsive a{
+    #navbar.responsive a{
         float: none;
         display: block;
         text-align: left;
     }
 }
 
+@media screen and (max-width: 885px){
+    .contact{
+        display: block;
+        padding: 10px;
+    }
+
+    .contact_details{
+        margin: 10px auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .show_case p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .email_us input,
+    .email_us textarea{
+        width: 70%;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .show_case span{
         font-size: 15px;
+    }
+
+    .show_case p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .contact{
+        font-size: 10px;
+    }
+    .contact_details,
+    .email_us{
+        font-size: 10px;
     }
 }
